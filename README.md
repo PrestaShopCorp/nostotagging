@@ -91,6 +91,21 @@ PrestaShop version 1.4.x - 1.6.x
 
 ## Changelog
 
+* 2.2.1
+    * Fixed connecting existing Nosto account using OAuth for multi-shop setups in Prestashop 1.5.0.0 - 1.5.4.1
+    * Fixed preview urls on module admin page for multi-shop setups in Prestashop 1.5.0.0 - 1.5.4.1
+
+* 2.2.0
+    * New module admin UI
+    * Added hook for sending new product data to Nosto right after product has been created
+    * Added tagging for search terms
+    * Improved OAuth error messages
+    * Fixed product price tagging tax display to depend on user active group
+    * Fixed product availability tagging to also depend on the products visibility in PS 1.5+
+
+* 2.1.1
+    * Fix SDK sub-repository to use https instead of ssh
+
 * 2.1.0
     * Improve server-to-server order confirmations
     * Implement all communication with Nosto through the Nosto SDK library
